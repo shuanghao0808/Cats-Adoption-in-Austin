@@ -13,4 +13,4 @@ Next time when you visit an animal shelter, please pick those who are female cat
 Finally, don’t forget no matter what cat you have chosen, please treat them with all your love, because they are probably only a part of your world, but you are indeed the whole world of them.
 
 ## Python Jupyter Notebook in nbviewer
-https://nbviewer.jupyter.org/github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Cats%20Adoption%20in%20Austin.ipynb
+https://nbviewer.jupyter.org/github/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Cats%20Adoption%20in%20Austin.ipynb
