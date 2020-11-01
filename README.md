@@ -15,7 +15,7 @@ Important columns in df are:
 
 <b>Spay/Neuter</b> : If sterilization was done or not.
 
-<b>Outcome_age_(days) : Approximate age of cats upon the outcome days.
+<b>Outcome_age_(days)</b> : Approximate age of cats upon the outcome days.
   
 <b>Cat/Kitten</b> : Whether a cat was of adult or kitten age upon outcome. Kittens are defined as cats of approximately five months old or younger.
 
