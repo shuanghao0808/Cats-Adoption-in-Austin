@@ -10,15 +10,25 @@ This is a data set for shelter cat outcomes of Austin Animal Center from 10/1/20
 
 Important columns in df are:
 <b>Breed</b> : Breed of cats (eg: domestic shorthair, domestic mediumhair, domestic longhair, etc.).
+
 <b>Color</b> : Color of cats (eg: orange, black, white, etc.).
+
 <b>Spay/Neuter</b> : If sterilization was done or not.
+
 <b>Outcome_age_(days) : Approximate age of cats upon the outcome days.
+  
 <b>Cat/Kitten</b> : Whether a cat was of adult or kitten age upon outcome. Kittens are defined as cats of approximately five months old or younger.
+
 <b>Name</b> : Name of cats. Give 'name' a nan if the cat does not have a name.
+
 <b>Outcome_type</b> : The type of outcomes of shelter cats (eg:Transfer, Adoption, Return to Owner, Died, Euthanasia,Missing, Disposal, Rto-Adopt).
+
 <b>Sex_upon_outcome</b> : Intact Male, Intact Female, Spayed Female, Neutered Male
+
 <b>Sex</b> : Male or female.
+
 <b>Cfa_breed</b> : Whether the cat is a rare species. False means regular species and True means rare species.
+
 <b>Coat</b> : Type of coat (eg: apricot, lynx, chocolate, silver, etc.)
 
 ## Conclusion:
