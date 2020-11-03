@@ -93,7 +93,7 @@ c. If the cat is spayed or neuter, and it has a name, then it would have a highe
 
 ### 2. Clustering
 
-![](https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/Clustering.png)
+![] (https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/Clustering.png)
 
 We can see that kmeans clustering divided shelter cats into 4 groups mainly by the differences in their ages. Cluster 0 is consisted of 3 years old cats which has the lowest adoption rate. On the other hand, cluster 1 is the "kitten cluster" which has the highest 46% adoption rate. The other two groups all belong to the "old cat" group. Compared with cluster 2, cluster 3 has a slightly higher male cats percentages which brings a higher adoption rate. Lastly, both cluser 2 and 3 have a higher percentages in names and famous cats. But those features still cannot change the impact of age in terms of the chance of adoption.
 
