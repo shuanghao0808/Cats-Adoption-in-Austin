@@ -56,7 +56,9 @@ Based on the graph, even though most of the cats had been transferred, there was
 The adoption rate of regular species is 42.68%. The adoption rate of rare species is 46.79%. Unexpectedly, whether the cat's breed is expensive or not does not seem to affect their probability of being adopted as people thought.
 
 a. The most common coat pattern of shelter cats is tabby.
+
 b. Smoke cats get adopted at the highest rate
+
 c. The most adopted rare cats are point cats.
   
 ### 3. What other fun facts?
@@ -88,7 +90,9 @@ Appearance of a cat, rather than its breed, seems to be a more important aspect 
 ![](https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/Decision%20tree.png)
 
 a. If the cat is not spayed or neuter, and does not have a name, and is not in age range 1~3 years old, it has a very low probability to be adopted.
+
 b. If the cat is spayed or neuter, and it does not have a name, then it would have a higher adoption rate if it is a male cat and a baby kitten.
+
 c. If the cat is spayed or neuter, and it has a name, then it would have a higher adoption rate if it is a baby kitten no matter whether the adoption happened in weekday or weekend.
 
 ### 2. Clustering
@@ -102,21 +106,30 @@ We can see that kmeans clustering divided shelter cats into 4 groups mainly by t
 ![](https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/Regression.png)
 
 a. If a cat has a name, the probability of adoption increases by around 655% holding other variables constant.
+
 b. If a cat's age increase by one day, the probability of adoption decreases by around 0.06% holding other variables constant.
+
 c. If a cat has cfa certificate (rare species), the probability of adoption increases by around 24% holding other variables constant.
+
 d. If a cat is spayed or neuter, the probability of adoption increases by around 1497% holding other variables constant.
+
 e. If a cat is a male, the probability of adoption increase by around 44% holding other variables constant.
+
 f. If a cat has a common coat color, the probability of adoption decreases by around 18% holding other variables constant.
+
 g. The probability of adoption is much higher if it is in weekend.
 
 The adoption rate is mainly influenced by name, sterilization and kitten.
 
 ## Conclusion:
 I sliced and diced the data from multiple dimensions and now I have some recommendations to shelters and people who are looking for a cat:
-Please give every cat in shelter a name! Currently, only 56% of cats in shelter have a name. By giving shelter cats a name can increase adoption rate by 44 percentage point, especially for female cats, the influence is more than 51 percentage point.
-If funding allows, make sure to neuter or spay cats can increase adoption rate by 50%. Currently, only 68.4% of cats in shelter accepted sterilization.
+
+1. Please give every cat in shelter a name! Currently, only 56% of cats in shelter have a name. By giving shelter cats a name can increase adoption rate by 44 percentage point, especially for female cats, the influence is more than 51 percentage point.
+
+2. If funding allows, make sure to neuter or spay cats can increase adoption rate by 50%. Currently, only 68.4% of cats in shelter accepted sterilization.
 Next time when you visit an animal shelter, please pick those who are female cats without a name, 1~3 years old cats, female kittens, old male cats, domestic-breed cats, black/orange/white cats. They are more in need of help.
-Finally, don’t forget no matter what cat you have chosen, please treat them with all your love, because they are probably only a part of your world, but you are indeed the whole world of them.
+
+3. Finally, don’t forget no matter what cat you have chosen, please treat them with all your love, because they are probably only a part of your world, but you are indeed the whole world of them.
 
 ## Python Jupyter Notebook in nbviewer
 https://nbviewer.jupyter.org/github/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Cats%20Adoption%20in%20Austin.ipynb
