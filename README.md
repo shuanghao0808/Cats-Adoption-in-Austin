@@ -1,11 +1,11 @@
 # Cats-Adoption-in-Austin
 
-## Summary
+## Business Understanding
 Many old cats or cats that are not very popular breed will be euthanized by animal shelters if they cannot be adopted for a long time. Shelters racked their brain for finding adoptive homes for cats. I’m wondering if I am able to contribute a little bit using my data analytics background. 
 
 Fortunately, I found the data covers 29,421 cats from Austin Animal Center from late 2013 to early 2018. The data set collects their breed, color, spay/neuter, age, name, sex, coat as well as their outcomes (eg:Transfer, Adoption, Return to Owner, Died, Euthanasia,Missing, Disposal, Rto-Adopt). Let’s see if we can dive deep into this data and find some interesting insights to figure out what are the factors that affect the chance of adoption. If so, maybe we can help animal shelters to realize how they can increase cat adoption rate.
 
-## Data Description
+## Data Understanding
 This is a data set for shelter cat outcomes of Austin Animal Center from 10/1/2013 to the present
 
 Important columns in df are:
@@ -30,6 +30,24 @@ Important columns in df are:
 <b>Cfa_breed</b> : Whether the cat is a rare species. False means regular species and True means rare species.
 
 <b>Coat</b> : Type of coat (eg: apricot, lynx, chocolate, silver, etc.)
+
+## Libraries used in thie project 
+
+1. Pandas - a data analysis and manipulation tool
+2. Numpy - a numerical computing tools
+3. Matplotlib - a comprehensive library for creating static, animated, and interactive visualizations in Python
+4. Seaborn - a Python data visualization library based on matplotlib.
+5. Sklearn - a Python machine learning library features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy.
+6. Pylab - a convenience module that bulk imports matplotlib.
+7. Pydotplus - a tool provides a Python Interface to Graphviz's Dot language
+
+## Visualized Anlysis
+
+### 1. What happened to the cats in Austin Animal Center？
+
+![](https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/outcome%20distribution.png)
+Based on the graph, even though most of the cats had been transferred, there was still a large majority of cats been adopted (Yay!). Cases like euthanasia, return to owner, death, rto-adopt, missing and disposal were actually very rare compared to transfer and adoption. Austin Animal Shelter is really well run! Given the fact that adoption was the most desirable outcome and there are pretty many cases and features to work with, I considered correctly predicting adoption outcome to be a meaningful task.
+
 
 ## Conclusion:
 I sliced and diced the data from multiple dimensions and now I have some recommendations to shelters and people who are looking for a cat:
