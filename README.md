@@ -55,9 +55,9 @@ Based on the graph, even though most of the cats had been transferred, there was
 
 The adoption rate of regular species is 42.68%. The adoption rate of rare species is 46.79%. Unexpectedly, whether the cat's breed is expensive or not does not seem to affect their probability of being adopted as people thought.
 
-<a> The most common coat pattern of shelter cats is tabby.
-<b> Smoke cats get adopted at the highest rate
-<c> The most adopted rare cats are point cats.
+a. The most common coat pattern of shelter cats is tabby.
+b. Smoke cats get adopted at the highest rate
+c. The most adopted rare cats are point cats.
   
 ### 3. What other fun facts?
 
