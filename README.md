@@ -99,27 +99,7 @@ We can see that kmeans clustering divided shelter cats into 4 groups mainly by t
 
 ### 3. Regression
 
-                           Logit Regression Results                           
-==============================================================================
-Dep. Variable:               adoption   No. Observations:                25792
-Model:                          Logit   Df Residuals:                    25784
-Method:                           MLE   Df Model:                            7
-Date:                Tue, 20 Mar 2018   Pseudo R-squ.:                  0.3477
-Time:                        12:38:35   Log-Likelihood:                -11493.
-converged:                       True   LL-Null:                       -17619.
-                                        LLR p-value:                     0.000
-====================================================================================
-                       coef    std err          z      P>|z|      [0.025      0.975]
-------------------------------------------------------------------------------------
-name                 2.0220      0.036     56.235      0.000       1.952       2.093
-outcome_age_days    -0.0006   1.83e-05    -34.470      0.000      -0.001      -0.001
-cfa_breed            0.2158      0.073      2.955      0.003       0.073       0.359
-male                 0.3657      0.033     10.983      0.000       0.300       0.431
-sterilization        2.7705      0.048     58.118      0.000       2.677       2.864
-weekend              0.9212      0.035     26.017      0.000       0.852       0.991
-common_coat         -0.1935      0.055     -3.494      0.000      -0.302      -0.085
-intercept           -3.6671      0.072    -50.646      0.000      -3.809      -3.525
-====================================================================================
+![](https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/Regression.png)
 
 a. If a cat has a name, the probability of adoption increases by around 655% holding other variables constant.
 b. If a cat's age increase by one day, the probability of adoption decreases by around 0.06% holding other variables constant.
