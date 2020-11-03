@@ -85,7 +85,7 @@ Appearance of a cat, rather than its breed, seems to be a more important aspect 
 
 ### 1. Desition Tree
 
-![] (https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/Decision%20tree.png)
+![](https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/Decision%20tree.png)
 
 a. If the cat is not spayed or neuter, and does not have a name, and is not in age range 1~3 years old, it has a very low probability to be adopted.
 b. If the cat is spayed or neuter, and it does not have a name, then it would have a higher adoption rate if it is a male cat and a baby kitten.
@@ -93,7 +93,7 @@ c. If the cat is spayed or neuter, and it has a name, then it would have a highe
 
 ### 2. Clustering
 
-![] (https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/Clustering.png)
+![](https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/Clustering.png)
 
 We can see that kmeans clustering divided shelter cats into 4 groups mainly by the differences in their ages. Cluster 0 is consisted of 3 years old cats which has the lowest adoption rate. On the other hand, cluster 1 is the "kitten cluster" which has the highest 46% adoption rate. The other two groups all belong to the "old cat" group. Compared with cluster 2, cluster 3 has a slightly higher male cats percentages which brings a higher adoption rate. Lastly, both cluser 2 and 3 have a higher percentages in names and famous cats. But those features still cannot change the impact of age in terms of the chance of adoption.
 
