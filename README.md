@@ -46,8 +46,40 @@ Important columns in df are:
 ### 1. What happened to the cats in Austin Animal Center？
 
 ![](https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/outcome%20distribution.png)
+
 Based on the graph, even though most of the cats had been transferred, there was still a large majority of cats been adopted (Yay!). Cases like euthanasia, return to owner, death, rto-adopt, missing and disposal were actually very rare compared to transfer and adoption. Austin Animal Shelter is really well run! Given the fact that adoption was the most desirable outcome and there are pretty many cases and features to work with, I considered correctly predicting adoption outcome to be a meaningful task.
 
+### 2. Does coat color determine adoption rates?
+
+![](https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/CFA%20%26%20coat%20pattern.png)
+
+The adoption rate of regular species is 42.68%. The adoption rate of rare species is 46.79%. Unexpectedly, whether the cat's breed is expensive or not does not seem to affect their probability of being adopted as people thought.
+
+<a> The most common coat pattern of shelter cats is tabby.
+<b> Smoke cats get adopted at the highest rate
+<c> The most adopted rare cats are point cats.
+  
+### 3. What other fun facts?
+
+![](https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/Adoption%20rates%20by%20sex%20and%20sterilization.png)
+
+Male cat is more popular in general. Even both female and male cats are spayed or neutered…
+
+![](https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/Adoption%20rates%20by%20sex%20and%20name.png)
+
+But, you can easily change everything by just giving female cat a name
+
+![](https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/Adoption%20rates%20by%20breed%20and%20coat%20color.png)
+
+You can increase 51% adoption chance for a female cat just by a name! But you can only increase 13.5% chance for male cat by a name
+
+![](https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/Adoption%20rates%20by%20age.png)
+
+Age 1~3 years cat is the least popular group. People prefer female cat if it is an old cat.
+
+![](https://github.com/shuanghao0808/Cats-Adoption-in-Austin/blob/master/Pictures/Adoption%20rates%20by%20breed%20and%20coat%20color.png)
+
+Appearance of a cat, rather than its breed, seems to be a more important aspect to adopters.
 
 ## Conclusion:
 I sliced and diced the data from multiple dimensions and now I have some recommendations to shelters and people who are looking for a cat:
